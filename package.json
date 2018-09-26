@@ -6,7 +6,8 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
     "lint": "eslint --fix src/*.*",
-    "test": "echo \"Tests are for pussies\" && exit 0"
+    "test": "echo \"Tests are for pussies\" && exit 0",
+    "build": "webpack --mode=production"
   },
   "babel": {
     "presets": [
